@@ -21,7 +21,7 @@ $app->router->add('', function() use ($app) {
 	$app->dispatcher->forward([
         'controller' => 'translator',
         'action'     => 'add', 
-		'title' => 'hej',
+		
     ]);
 	
 	
