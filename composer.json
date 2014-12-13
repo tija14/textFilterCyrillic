@@ -1,5 +1,5 @@
 {
-    "name": "CyrillicTextFilter",    
+    "name": "tija/CyrilicTextfilter",    
     "type": "library",
     "description": "Webtemplate to create websites",
     "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
