@@ -24,8 +24,6 @@ class translatorController implements \Anax\DI\IInjectionAware
 	
     public function addAction()
     {
-        
-		$isPosted = $this->request->getPost('doCreate');
 		
 		$comment = [
 			'text'   => $this->request->getPost('text')
