@@ -1,9 +1,6 @@
 <div class='comment-form'>
     <form method=post>
         <input type=hidden name="redirect" value="<?=$this->url->create($pageId)?>">
-        <input type=hidden name="sidId" value="<?= $id ?>">
-        <input type=hidden name="pageId" value="<?=$pageId?>">
-
          
         <fieldset>
         <legend>Translate from latin to crylic</legend>
