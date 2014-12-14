@@ -14,22 +14,25 @@ It is integrated into Anax-MVC.
 
 Start by downloading the package and install it using composer.
 The following line is needed in composer.json
-
+```javascript
 require : "tija/cyrilic-textfilter": "dev-master"
-
+```
 In index.php you need set the controller you want to use:
 
+```php
 $di->set('TranslatorController', function() use ($di) { 
     $controller = new Phpmvc\Comment\TranslatorController(); 
     $controller->setDI($di); 
     return $controller; 
 }); 
+```
 Inside the router you will need the following code: 
+```php
 $app->dispatcher->forward([
         'controller' => 'translator',
         'action'     => 'add',
-		
-    ]);
+	]);
+	```
 	
 Last but not least you will need to copy the template(translator.tpl.php) into
 app/view/comment and then your ready to go.
