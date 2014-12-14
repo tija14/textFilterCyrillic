@@ -32,7 +32,7 @@ $app->dispatcher->forward([
         'controller' => 'translator',
         'action'     => 'add',
 	]);
-	```
+```
 	
 Last but not least you will need to copy the template(translator.tpl.php) into
 app/view/comment and then your ready to go.
